@@ -1,0 +1,134 @@
+/*global rule*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: helvetica, arial;
+    font-size: 1rem;
+}
+
+/*sizing for the entire file*/
+
+
+/*H1 and H2 added to condense code*/
+
+h1,
+h2 {
+    color: rgba(35, 75, 124, 0.514);
+    font-family: sans-serif;
+}
+
+/*Main header styling*/
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+/*sub heading styles*/
+h2 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+/*Currently effects only the p elements*/
+.main-text {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+
+/*id's should only be used once in a file*/
+#author {
+    font-size: 1.55rem;
+    margin-bottom: 10px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 10px;
+
+}
+
+.container {
+    width: 1140px;
+    margin: 20px auto 0 auto;
+    
+}
+
+.blog-post {
+    width: 75%;
+    float: left;
+    padding-right: 30px;
+    position: relative;
+    
+}
+
+.blog-post img {
+    height: 150px;
+    width: auto;
+}
+
+/*this will make the other posts flight to the RIGHT side of the page since it's up against another block element*/
+.other-post {
+    width: 25%;
+    float: left;
+    
+    
+}
+
+
+/*styling for other posts*/
+.other {
+    margin-bottom: 50px;
+    
+}
+
+
+/*author styling*/
+.author-posts {
+    border-top: 1px solid gray;
+    padding-top: 20px;
+}
+
+
+/*img styling for the author picture. this will make the other-post class to float to the right side of the screen*/
+.author-posts img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    float: left;
+
+}
+
+.date {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 655px;
+}
+
+/*content styling*/
+p {
+    font-size: 1.25rem;
+    font-family: helvetica, arial;
+}
+
+
+/*attribute styling. block display*/
+
+a {
+    display: block;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
