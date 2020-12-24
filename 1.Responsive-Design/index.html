@@ -11,15 +11,15 @@
 <body>
     <div class="nav">
         <ul>
-            <li><a href="#">Author</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">See More</a></li>
+            <li><a href="#author">Author</a></li>
+            <li><a href="#blog-post">Blog</a></li>
+            <li><a href="#other-post">See More</a></li>
         </ul>
     </div>
     <!--Header and Chapter title-->
     <div class="container">
-        <div class="blog-post">
-            <h1>My First Blog Post</h1>
+        <div id="blog-post">
+            <h1>With one comes another...</h1>
             <!--date is to be at the right of the Heading-->
             <p class="date">December 23 2020</p>
             <h2>This is my first blog post</h2>
@@ -62,18 +62,25 @@
             </p>
             <img src="./images/html5-css3.png" alt="HTML 5 and CSS Logos">
         </div>
-        <!--profile picture-->
-        <div class="other-post">
-            <div class="other">
-                The first other blog post
+        
+        <!--blog posts to the ruight of the page-->
+        <div id="other-post">
+            <div>
+                <h3 class="other">More from the Author...</h3>
             </div>
-            <div class="other">
-                The second other blog post
+            <div class="other"><a href="#">
+                    Next In Line</a>
             </div>
-            <div class="other">
-                The third other blog post
+            <div class="other"><a href="#">
+                    This was only the beginning</a>
+            </div>
+            <div class="other"><a href="#">
+                    It was never meant to be easy</a>
             </div>
         </div>
+
+        <!--profile picture-->
+        
         <div class="clearfix"></div>
         <div class="author-posts">
             <img src="./images/random-user-profile-pic.jpg" alt="Blog User Photo">
