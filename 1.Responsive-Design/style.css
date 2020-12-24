@@ -6,6 +6,25 @@
     padding: 0;
 }
 
+.nav {
+    list-style: none;
+    background-color: #00EBD0;
+    position: relative;
+    text-align: center;
+
+}
+
+li {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: serif;
+    margin: 30px;
+    
+}
+
+
+
 .clearfix::after {
     content: "";
     display: table;
@@ -24,17 +43,17 @@ body {
 
 h1,
 h2 {
-    color: rgba(35, 75, 124, 0.514);
     font-family: sans-serif;
-    font-size: 90px;
-    font-weight: 400;
+    
 }
 
 /*Main header styling*/
 
 h1 {
-    font-size: 2rem;
+    font-size: 4.5rem;
+    font-weight: 300;
     margin-bottom: 15px;
+
 }
 
 /*sub heading styles*/
@@ -115,6 +134,11 @@ h2 {
     position: absolute;
     top: 0;
     left: 625px;
+    font-family: serif;
+    font-size: 22px;
+    color: lightgray;
+    
+
 }
 
 /*content styling*/
