@@ -1,4 +1,4 @@
-/*global rule*/
+/*(((global rule)))*/
 
 * {
     box-sizing: border-box;
@@ -6,11 +6,14 @@
     padding: 0;
 }
 
+
+/*(((nav styling)))*/
 .nav {
     list-style: none;
     background-color: #00EBD0;
     position: relative;
     text-align: center;
+
 
 }
 
@@ -21,6 +24,7 @@ li {
     font-family: serif;
     margin: 30px;
     
+
 }
 
 
@@ -31,23 +35,18 @@ li {
     clear: both;
 }
 
-body {
-    font-family: helvetica, arial;
-    font-size: 1rem;
-}
-
-/*sizing for the entire file*/
 
 
-/*H1 and H2 added to condense code*/
+
+/*(((H1 and H2 added to condense code)))*/
 
 h1,
 h2 {
     font-family: sans-serif;
-    
+
 }
 
-/*Main header styling*/
+/*(((Main header styling)))*/
 
 h1 {
     font-size: 4.5rem;
@@ -56,25 +55,25 @@ h1 {
 
 }
 
-/*sub heading styles*/
+/*(((sub heading styles)))*/
 h2 {
     font-size: 1.25rem;
     margin-bottom: 10px;
 }
 
-/*Currently effects only the p elements*/
+/*(((Currently effects only the p elements)))*/
 .main-text {
     text-align: justify;
     margin-bottom: 20px;
 }
 
 
-/*id's should only be used once in a file*/
+/*(((id's should only be used once in a file)))*/
 #author {
     font-size: 1.55rem;
     margin-bottom: 10px;
     float: left;
-    margin-top: 40px;
+    margin-top: 55px;
     margin-left: 10px;
 
 }
@@ -82,41 +81,54 @@ h2 {
 .container {
     width: 1140px;
     margin: 20px auto 0 auto;
-    
+    box-shadow: 3px 3px 5px 5px #5a575563;
+    border-radius: 10px;
+
 }
 
-.blog-post {
+#blog-post {
     width: 75%;
     float: left;
     padding-right: 30px;
     position: relative;
-    
+
 }
 
-.blog-post img {
+#blog-post img {
     height: 150px;
     width: auto;
 }
 
-/*this will make the other posts flight to the RIGHT side of the page since it's up against another block element*/
-.other-post {
+/*(((this will make the other posts float to the RIGHT side of the page since it's up against another block element)))*/
+
+#other-post {
     width: 25%;
     float: left;
-    
-    
+    margin-top: 135px;
+    background-color: #FA6400;
+
+
+}
+
+#other-post h3 {
+    background-color: #00EBD0;
 }
 
 
-/*styling for other posts*/
+/*(((styling for other posts)))*/
 .other {
+
     margin-bottom: 50px;
     
+
+
 }
+
 
 
 /*author styling*/
 .author-posts {
-    border-top: 1px solid gray;
+    
     padding-top: 20px;
 }
 
@@ -127,6 +139,8 @@ h2 {
     height: 100px;
     width: 100px;
     float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
 }
 
@@ -137,7 +151,7 @@ h2 {
     font-family: serif;
     font-size: 22px;
     color: lightgray;
-    
+
 
 }
 
@@ -147,7 +161,7 @@ a {
     font-size: 1.50rem;
     font-family: helvetica, arial;
     line-height: 150%;
-    
+
 }
 
 
@@ -158,5 +172,7 @@ a {
     text-align: justify;
     margin-top: 10px;
     margin-bottom: 10px;
+    
 }
+
 
